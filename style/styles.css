@@ -310,6 +310,79 @@ nav ul li img {
   font-size: 14px;
 }
 /* Join the colorful Bunch */
+.newsletter-container {
+  padding: 40px;
+  background-color: #fff;
+}
+
+.bunch-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative; 
+}
+
+.bunch-image img {
+  max-width: 1486px;
+  width: 100%;
+  height: auto;
+}
+
+.image-text-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-text-wrapper img {
+  width: 100%;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.newsletter-form {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#newsletter-email {
+  border: 2px solid black;
+  font-size: 1.1rem;
+  padding: 5px;
+  border-radius: 5px;
+  width: 500px;
+}
+
+.subscribe {
+  color: white;
+  background-color: #E95A08;
+  padding: 5px 5px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+
+}
+/* Footer Section */
+
+
+
+
 
 
     
